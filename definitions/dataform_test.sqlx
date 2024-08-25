@@ -1,0 +1,21 @@
+config {
+ type: "table",
+ schema: "DEV_DATASET",
+ database: "valeo-cp1753-dev"
+}
+
+SELECT
+ "apples" AS fruit,
+ 2 AS count
+UNION ALL
+SELECT
+ "oranges" AS fruit,
+ 5 AS count
+UNION ALL
+SELECT
+ "pears" AS fruit,
+ 1 AS count
+UNION ALL
+SELECT
+ "bananas" AS fruit,
+ 10 AS count

@@ -1,0 +1,21 @@
+config {
+ type: "table",
+ schema: "KW_LOGS_DEV",
+ database: "valeo-cp1753-dev"
+}
+
+SELECT
+ "apples" AS fruit,
+ 22 AS count
+UNION ALL
+SELECT
+ "oranges" AS fruit,
+ 25 AS count
+UNION ALL
+SELECT
+ "pears" AS fruit,
+ 21 AS count
+UNION ALL
+SELECT
+ "bananas" AS fruit,
+ 210 AS count
